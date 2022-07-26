@@ -16,6 +16,9 @@
   "action": {
     "default_popup": "popup.html"
   },
+  "sandbox": {
+    "pages": ["popup.html"]
+  },
   "host_permissions": [
     "http://www.google.com/",
     "https://cdn.jsdelivr.net/"
